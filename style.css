@@ -1,5 +1,26 @@
- html, body {
-     margin: 0;
-     padding: 0;
-     outline: 0;
- }
+html, body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.items {
+
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background: red;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background: #eee;
+    box-sizing: border-box;
+
+}
+
+.item-active {
+    border: 1px solid black;
+}
