@@ -22,7 +22,7 @@
     render(){
         return(
             <div>
-                <button onClick={this.state.handleClick}>Click me!</button>
+                <button onClick={handleClick}>Click me!</button>
                 <h1>{this.state.name}</h1>
             </div>
         )
